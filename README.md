@@ -1,3 +1,11 @@
+<a href="https://github.com/alexyao2015/bitprint/actions"><img alt="GitHub Actions Build" src="https://github.com/alexyao2015/bitprint/workflows/Deploy/badge.svg"></a>
+<a href="https://hub.docker.com/r/yaoa/bitprint"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/yaoa/bitprint.svg"></a>
+
+
+```
+$ docker run -d -p 3000:3000 yaoa/bitprint
+```
+
 # BitPrint
 
 **BitPrint** turns an [exported Bitwarden vault](https://help.bitwarden.com/article/export-your-data/) into a layout designed to be printed. Processing is handled client side.
